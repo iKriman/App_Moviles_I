@@ -1,2 +1,0 @@
-PRUEBAS AUTOMATICAS: todas aprobadas.
-Validaciones, promociones, igualdad, desestructuracion, sobrecarga, inventario, reabastecimiento, estados y repartidores: OK
