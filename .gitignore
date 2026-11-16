@@ -1,6 +1,4 @@
-.gradle/
-build/
-out/
-.idea/workspace.xml
-*.iml
-*.jar
+node_modules/
+dist/
+.env
+*.local

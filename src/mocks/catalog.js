@@ -1,0 +1,156 @@
+export const categories = [
+  {
+    id: 'ficcion',
+    name: 'Ficción',
+    description: 'Vidas, encuentros y otras formas de mirar el mundo.',
+    symbol: '✳',
+    color: 'terracotta',
+  },
+  {
+    id: 'ciencia-ficcion',
+    name: 'Ciencia ficción',
+    description: 'Mundos posibles, preguntas que nos llevan más lejos.',
+    symbol: '✧',
+    color: 'sage',
+  },
+  {
+    id: 'misterio',
+    name: 'Misterio',
+    description: 'Pistas, secretos y una página más antes de dormir.',
+    symbol: '◈',
+    color: 'slate',
+  },
+  {
+    id: 'fantasia',
+    name: 'Fantasía',
+    description: 'Lo extraordinario también tiene su lugar en la estantería.',
+    symbol: '☾',
+    color: 'ochre',
+  },
+  {
+    id: 'poesia',
+    name: 'Poesía',
+    description: 'Palabras para detenerse, sentir y volver a leer.',
+    symbol: '❋',
+    color: 'rose',
+  },
+  {
+    id: 'teatro',
+    name: 'Teatro',
+    description: 'Historias que esperan encontrarse con un escenario.',
+    symbol: '◒',
+    color: 'sand',
+  },
+];
+export const books = [
+  {
+    id: 'don-quijote',
+    title: 'Don Quijote de la Mancha',
+    author: 'Miguel de Cervantes',
+    categoryId: 'ficcion',
+    price: 18990,
+    year: 1605,
+    color: 'terracotta',
+    description:
+      'Un caballero y su escudero emprenden un viaje en el que la imaginación transforma los caminos y las personas que encuentran.',
+  },
+  {
+    id: 'orgullo-prejuicio',
+    title: 'Orgullo y prejuicio',
+    author: 'Jane Austen',
+    categoryId: 'ficcion',
+    price: 12990,
+    year: 1813,
+    color: 'sage',
+    description:
+      'Elizabeth Bennet observa las expectativas sociales y los vínculos familiares mientras revisa sus primeras impresiones sobre quienes la rodean.',
+  },
+  {
+    id: 'mujercitas',
+    title: 'Mujercitas',
+    author: 'Louisa May Alcott',
+    categoryId: 'ficcion',
+    price: 14990,
+    year: 1868,
+    color: 'rose',
+    description:
+      'Las hermanas March crecen entre proyectos, dificultades y afectos, buscando su propio camino sin perder la cercanía que las une.',
+  },
+  {
+    id: 'viaje-centro',
+    title: 'Viaje al centro de la Tierra',
+    author: 'Julio Verne',
+    categoryId: 'ciencia-ficcion',
+    price: 11990,
+    year: 1864,
+    color: 'ochre',
+    description:
+      'Un manuscrito conduce a una expedición hacia las profundidades de la Tierra. La curiosidad científica se encuentra con una aventura inesperada.',
+  },
+  {
+    id: 'frankenstein',
+    title: 'Frankenstein',
+    author: 'Mary Shelley',
+    categoryId: 'ciencia-ficcion',
+    price: 13990,
+    year: 1818,
+    color: 'slate',
+    description:
+      'Un experimento abre preguntas sobre la creación, la responsabilidad y la necesidad de pertenecer. Una historia que sigue invitando a conversar.',
+  },
+  {
+    id: 'estudio-escarlata',
+    title: 'Estudio en escarlata',
+    author: 'Arthur Conan Doyle',
+    categoryId: 'misterio',
+    price: 10990,
+    year: 1887,
+    color: 'terracotta',
+    description:
+      'Holmes y Watson comienzan a trabajar juntos para seguir las pistas de un caso que esconde una historia más amplia de lo que parece.',
+  },
+  {
+    id: 'sabueso',
+    title: 'El sabueso de los Baskerville',
+    author: 'Arthur Conan Doyle',
+    categoryId: 'misterio',
+    price: 12990,
+    year: 1902,
+    color: 'slate',
+    description:
+      'Una leyenda familiar y un paisaje inquietante rodean una investigación en la que cada detalle puede cambiar la interpretación del caso.',
+  },
+  {
+    id: 'alicia',
+    title: 'Alicia en el país de las maravillas',
+    author: 'Lewis Carroll',
+    categoryId: 'fantasia',
+    price: 11990,
+    year: 1865,
+    color: 'rose',
+    description:
+      'Una niña sigue a un conejo y descubre un mundo donde la lógica cotidiana deja paso a preguntas, juegos de palabras y encuentros extraordinarios.',
+  },
+  {
+    id: 'oz',
+    title: 'El maravilloso mago de Oz',
+    author: 'L. Frank Baum',
+    categoryId: 'fantasia',
+    price: 12990,
+    year: 1900,
+    color: 'sage',
+    description:
+      'Dorothy recorre un camino desconocido junto a nuevos amigos. Cada uno busca algo diferente y encuentra razones para seguir avanzando.',
+  },
+  {
+    id: 'rimas',
+    title: 'Rimas',
+    author: 'Gustavo Adolfo Bécquer',
+    categoryId: 'poesia',
+    price: 9990,
+    year: 1871,
+    color: 'sand',
+    description:
+      'Una selección de poemas breves donde el sentimiento, la memoria y la propia escritura encuentran una voz íntima.',
+  },
+];
